@@ -44,7 +44,7 @@ cfg <- list(
   dir_html      = "data/raw/html",
   dir_derived   = "data/derived",
   dir_out       = "output",
-  rules_file    = "rules/das_coding_rules.csv"
+  rules_file    = "rules/das_coding_rules.tsv"
 )
 
 for (d in c(cfg$dir_raw, cfg$dir_jats, cfg$dir_html, cfg$dir_derived, cfg$dir_out)) {
